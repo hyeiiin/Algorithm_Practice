@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+-- ROUND(값, 자릿수)
+-- 자릿수 0 : 반올림하여 1의 자리까지 표시
+SELECT ROUND(AVG(DAILY_FEE),0) AS AVERAGE_FEE
+FROM CAR_RENTAL_COMPANY_CAR 
+WHERE CAR_TYPE = 'SUV'
